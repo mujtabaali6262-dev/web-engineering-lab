@@ -1,0 +1,19 @@
+{
+  "name": "web-engineering-lab",
+  "version": "1.0.0",
+  "description": "",
+  "main": "public/script.js",
+  "scripts": {
+    "start": "serve public",
+    "lint": "eslint .",
+    "format": "prettier --write ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^10.11.0",
+    "prettier": "^3.9.9",
+    "serve": "^14.2.6"
+  }
+}
