@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mujtaba Ali - Bio & Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+    <header>
+        <h1 id="greeting">Mujtaba Ali</h1>
+        <nav aria-label="Main Navigation">
+            <ul>
+                <li><a href="#bio" aria-current="location">Bio</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#office-hours">Office Hours</a></li>
+                <li><a href="#feedback">Send Feedback</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="main-content">
+
+        
+        <section id="bio">
+            <figure>
+                <img src="https://media.istockphoto.com/id/2171382633/vector/user-profile-icon-anonymous-person-symbol-blank-avatar-graphic-vector-illustration.jpg?s=612x612&w=0&k=20&c=ZwOF6NfOR0zhYC44xOX06ryIPAUhDvAajrPsaZ6v1-w=" 
+                     alt="Profile avatar for Mujtaba Ali" 
+                     width="300" height="300">
+                <figcaption> Mujtaba Ali - Student Profile</figcaption>
+            </figure>
+
+            <p>Hello! I am a student of SS-CASE-IT.</p>
+
+            <h2>Hobbies</h2>
+            <ul>
+                <li>Gaming</li>
+                <li>Traveling</li>
+            </ul>
+
+            <h2>Languages</h2>
+            <ol>
+                <li>English</li>
+                <li>Urde</li>
+                <li>Punjabi</li>
+            </ol>
+
+            <h2>Education</h2>
+            <ol>
+                <li>BS-Computer Science</li>
+                <li>F.Sc Pre-Engineering</li>
+            </ol>
+
+            <h2>Skills</h2>
+            <dl>
+                <dt>Web Design</dt>
+                <dd>Web pages using HTML.</dd>
+                <dt>Problem Solving</dt>
+                <dd>Finding easy answers to complex problems.</dd>
+            </dl>
+        </section>
+
+        
+        <section id="projects">
+            <h2>Recent Projects</h2>
+            <table>
+                <caption>Summary of recent academic and personal projects</caption>
+                <thead>
+                    <tr>
+                        <th scope="col">Project Name</th>
+                        <th scope="col">Description</th>
+                        <th scope="col">Technology Used</th>
+                        <th scope="col">Completion Semester</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>My First Webpage</td>
+                        <td>A basic HTML page</td>
+                        <td>HTML</td>
+                        <td>Semester 2</td>
+                    </tr>
+                    <tr>
+                        <td>Calculator App</td>
+                        <td>A simple math tool</td>
+                        <td>JavaScript</td>
+                        <td>Semester 2</td>
+                    </tr>
+                    <tr>
+                        <td>Game Design</td>
+                        <td>A simple 2D game</td>
+                        <td>Python</td>
+                        <td>Semester 2</td>
+                    </tr>
+                    <tr>
+                        <td>School Website</td>
+                        <td>A home page for school</td>
+                        <td>HTML and CSS</td>
+                        <td>Semester 2</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        
+        <svg class="divider" aria-hidden="true" viewBox="0 0 100 2" preserveAspectRatio="none">
+            <line x1="0" y1="1" x2="100" y2="1" stroke="#ccc" stroke-width="2" />
+        </svg>
+
+        
+        <section id="office-hours">
+            <h2>Office Hours</h2>
+
+            
+            <figure class="icon-wrapper">
+                <svg role="img" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#2b2b2b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <title id="clock-title">Clock Icon representing available office hours</title>
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <polyline points="12 6 12 12 16 14"></polyline>
+                </svg>
+                <figcaption>Weekly Available Timeslots</figcaption>
+            </figure>
+
+            
+            <table>
+                <caption>Weekly Office Availability and Consultation Hours</caption>
+                <thead>
+                    <tr>
+                        <th scope="col">Day</th>
+                        <th scope="col">Start Time</th>
+                        <th scope="col">End Time</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">Monday</th>
+                        <td><time datetime="08:00">08:00 AM</time></td>
+                        <td><time datetime="03:30">03:30 PM</time></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Wednesday</th>
+                        <td><time datetime="08:00">08:00 AM</time></td>
+                        <td><time datetime="03:30">03:30 PM</time></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Friday</th>
+                        <td><time datetime="08:00">08:00 AM</time></td>
+                        <td><time datetime="03:30">03:30 PM</time></td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        
+        <svg class="divider" aria-hidden="true" viewBox="0 0 100 2" preserveAspectRatio="none">
+            <line x1="0" y1="1" x2="100" y2="1" stroke="#ccc" stroke-width="2" />
+        </svg>
+
+        
+        <section id="feedback">
+            <h2>Send Feedback</h2>
+            <form action="#" method="post">
+                
+                
+                <div class="form-group">
+                    <label for="user-name">Name <span aria-hidden="true">*</span></label>
+                    <input type="text" id="user-name" name="name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="user-email">Email <span aria-hidden="true">*</span></label>
+                    <input type="email" id="user-email" name="email" aria-describedby="email-hint" required>
+                    <small id="email-hint">We'll never share your email with anyone else.</small>
+                </div>
+
+                
+                <fieldset>
+                    <legend>Topic <span aria-hidden="true">*</span></legend>
+                    <div>
+                        <input type="radio" id="topic-general" name="topic" value="general" required>
+                        <label for="topic-general">General Inquiry</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="topic-project" name="topic" value="project">
+                        <label for="topic-project">Project Feedback</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="topic-other" name="topic" value="other">
+                        <label for="topic-other">Other</label>
+                    </div>
+                </fieldset>
+
+                
+                <div class="form-group">
+                    <label for="user-message">Message <span aria-hidden="true">*</span></label>
+                    <textarea id="user-message" name="message" rows="5" required></textarea>
+                </div>
+
+                <button type="submit">Submit Feedback</button>
+            </form>
+        </section>
+
+    </main>
+
+    
+    <footer>
+        <address>
+            <p>Contact Mujtaba Ali:</p>
+            <p>Email: <a href="mailto:mujtabaali6262@gmail.com">mujtabaali6262@gmail.com</a></p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/mujtaba-ali-63123436b/" target="_blank" rel="noopener">LinkedIn Profile</a></p>
+            <p>Favorite Website: <a href="https://www.google.com" target="_blank" rel="noopener">Google</a></p>
+        </address>
+    </footer>
+
+</body>
+</html>
